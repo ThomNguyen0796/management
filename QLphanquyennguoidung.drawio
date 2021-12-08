@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T03:07:44.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.9.1" etag="2Ags-JuFJKR2PxyPyzva" type="github"><diagram id="I7MVzCQNJBK2rCHpAuZz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-08T10:42:55.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="1gxhW2y5V6qcp40kRrQq" version="15.9.1" type="github">
+  <diagram id="I7MVzCQNJBK2rCHpAuZz" name="Page-1">
+    <mxGraphModel dx="915" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Iidm7wDOosCZaMjVLJED-1" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Quy trình quản lý hồ sơ TTHC&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-2" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Người sử dụng&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-3" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Hệ thống&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="70" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="110" width="200" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="200" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000;" edge="1" parent="1" source="Iidm7wDOosCZaMjVLJED-11" target="Iidm7wDOosCZaMjVLJED-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-11" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#1BA1E2;fontColor=#ffffff;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="285" y="130" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000;" edge="1" parent="1" source="Iidm7wDOosCZaMjVLJED-12" target="Iidm7wDOosCZaMjVLJED-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-12" value="&lt;font style=&quot;font-size: 10px&quot;&gt;1.Đăng nhập tài khoản quản trị vào hệ thống&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=1;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;2.Hiển thị trang quản trị&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=1;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="185" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000;" edge="1" parent="1" source="Iidm7wDOosCZaMjVLJED-18" target="Iidm7wDOosCZaMjVLJED-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-18" value="3. Click menu thủ tục hành chính - Hồ sơ TTHC" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-19" value="4. Hiển thị trang danh sách hồ sơ TTHC" style="whiteSpace=wrap;html=1;rounded=0;fontSize=10;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000;" edge="1" parent="1" source="Iidm7wDOosCZaMjVLJED-14" target="Iidm7wDOosCZaMjVLJED-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="350" as="sourcePoint" />
+            <mxPoint x="660" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="270" />
+              <mxPoint x="300" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-22" value="4. Thực hiện các tác vụ sắp xếp, lựa chọn, tìm kiếm hồ sơ TTHC" style="whiteSpace=wrap;html=1;rounded=0;fontSize=10;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="245" y="400" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="553" y="350" as="sourcePoint" />
+            <mxPoint x="298" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="553" y="375" />
+              <mxPoint x="298" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000;" edge="1" parent="1" source="Iidm7wDOosCZaMjVLJED-25" target="Iidm7wDOosCZaMjVLJED-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-25" value="4. Hệ thống hiển thị&amp;nbsp; thông tin cho NSD tác nghiệp vụ" style="whiteSpace=wrap;html=1;rounded=0;fontSize=10;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000;" edge="1" parent="1" source="Iidm7wDOosCZaMjVLJED-22" target="Iidm7wDOosCZaMjVLJED-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="340" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iidm7wDOosCZaMjVLJED-27" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;fontSize=10;fillColor=#1BA1E2;fontColor=#ffffff;strokeColor=#000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
