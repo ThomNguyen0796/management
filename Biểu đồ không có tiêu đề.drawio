@@ -1,9 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-04-15T06:01:50.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.8" etag="uAwHpH8ZgxSza3OJBWqY" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-15T06:49:12.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="FhBbAFhBL9qBxVD_oluE" version="21.1.8" type="github">
   <diagram name="Trang-1" id="mfkvmXQyyWftPxocz7KG">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="2245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jYXNINCPclDNCg9SZe3E-1" value="Quản lý cài đặt mạng BLE" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-40" width="920" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-3" value="người dùng hệ thống" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-1">
+          <mxGeometry x="20" width="900" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jYXNINCPclDNCg9SZe3E-3" source="jYXNINCPclDNCg9SZe3E-5" target="jYXNINCPclDNCg9SZe3E-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-3">
+          <mxGeometry x="40" y="65" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-6" value="Thực hiện cài đặt mạng BLE/ thiết bị trong mạng/ nhóm thộc mạng" style="whiteSpace=wrap;html=1;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-3">
+          <mxGeometry x="105" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jYXNINCPclDNCg9SZe3E-3" source="jYXNINCPclDNCg9SZe3E-10" target="jYXNINCPclDNCg9SZe3E-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-10" value="Thông báo đến người dùng mạng nằm ngoài vùng phủ sóng" style="whiteSpace=wrap;html=1;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-3">
+          <mxGeometry x="260" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-12" value="Thực hiện cài đặt mạng" style="whiteSpace=wrap;html=1;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-3">
+          <mxGeometry x="420" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-20" value="Nhập sai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jYXNINCPclDNCg9SZe3E-3" target="jYXNINCPclDNCg9SZe3E-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="400" y="200" />
+              <mxPoint x="400" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-16" value="Check trùng tên khu vực/ thiết bị/ nhóm" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-3">
+          <mxGeometry x="412.5" y="160" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jYXNINCPclDNCg9SZe3E-3" source="jYXNINCPclDNCg9SZe3E-12" target="jYXNINCPclDNCg9SZe3E-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jYXNINCPclDNCg9SZe3E-3" source="jYXNINCPclDNCg9SZe3E-53" target="jYXNINCPclDNCg9SZe3E-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-53" value="Hiển thị theo thông tin người dùng cài đặt" style="whiteSpace=wrap;html=1;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-3">
+          <mxGeometry x="620" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-55" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-3">
+          <mxGeometry x="840" y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-4" value="hệ thống" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-1">
+          <mxGeometry x="20" y="260" width="900" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-8" value="Tự động kết nối mạng tương ứng với mạng người dùng cài đặt" style="whiteSpace=wrap;html=1;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-4">
+          <mxGeometry x="105" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-18" value="Chỉnh sửa thông tin/ thiết lập cài đặt&amp;nbsp; thành công" style="whiteSpace=wrap;html=1;" vertex="1" parent="jYXNINCPclDNCg9SZe3E-4">
+          <mxGeometry x="420" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jYXNINCPclDNCg9SZe3E-1" source="jYXNINCPclDNCg9SZe3E-6" target="jYXNINCPclDNCg9SZe3E-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-11" value="Ràng buộc khoảng cách từ thiết&lt;br&gt;bị di động đến mạng kết nối" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jYXNINCPclDNCg9SZe3E-1" source="jYXNINCPclDNCg9SZe3E-8" target="jYXNINCPclDNCg9SZe3E-10">
+          <mxGeometry x="-0.0794" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-19" value="Nhập đúng" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jYXNINCPclDNCg9SZe3E-1" source="jYXNINCPclDNCg9SZe3E-16" target="jYXNINCPclDNCg9SZe3E-18">
+          <mxGeometry x="0.3333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYXNINCPclDNCg9SZe3E-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jYXNINCPclDNCg9SZe3E-1" source="jYXNINCPclDNCg9SZe3E-18" target="jYXNINCPclDNCg9SZe3E-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
